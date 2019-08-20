@@ -1,0 +1,39 @@
+<wpml-config>
+    <custom-fields>
+        <custom-field action="copy">_g7_blog_category</custom-field>
+        <custom-field action="copy">_g7_blog_col</custom-field>
+        <custom-field action="copy">_g7_blog_content</custom-field>
+        <custom-field action="copy">_g7_blog_excerpt</custom-field>
+        <custom-field action="copy">_g7_blog_num</custom-field>
+        <custom-field action="copy">_g7_blog_show_author</custom-field>
+        <custom-field action="copy">_g7_blog_show_category</custom-field>
+        <custom-field action="copy">_g7_blog_show_comments</custom-field>
+        <custom-field action="copy">_g7_blog_show_date</custom-field>
+        <custom-field action="copy">_g7_blog_show_image</custom-field>
+        <custom-field action="copy">_g7_blog_show_rating</custom-field>
+        <custom-field action="copy">_g7_blog_show_readmore</custom-field>
+        <custom-field action="copy">_g7_blog_style</custom-field>
+        <custom-field action="copy">_g7_cat</custom-field>
+        <custom-field action="copy">_g7_criteria</custom-field>
+        <custom-field action="copy">_g7_enable_rating</custom-field>
+        <custom-field action="copy">_g7_layout</custom-field>
+        <custom-field action="copy">_g7_overall_rating</custom-field>
+        <custom-field action="copy">_g7_page_show_content</custom-field>
+        <custom-field action="copy">_g7_page_show_title</custom-field>
+        <custom-field action="copy">_g7_rating</custom-field>
+        <custom-field action="copy">_g7_review_post</custom-field>
+        <custom-field action="copy">_g7_sidebar</custom-field>
+        <custom-field action="copy">_g7_summary</custom-field>
+    </custom-fields>
+    <admin-texts>
+        <key name="entrance_options">
+            <key name="contact_subject"/>
+            <key name="contact_success"/>
+        </key>
+        <key name="theme_mods_entrance">
+            <key name="breadcrumb_text"/>
+            <key name="footer_text_1"/>
+            <key name="footer_text_2"/>
+        </key>
+    </admin-texts>
+</wpml-config>

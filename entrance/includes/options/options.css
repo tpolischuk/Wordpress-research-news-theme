@@ -1,0 +1,73 @@
+.form-table {
+	margin-bottom: 10px;
+}
+#wpcontent select.regular-select option {
+	padding-right: 10px;
+}
+select.small {
+	width: 100px;
+}
+select.medium {
+	width: 200px;
+}
+select.large {
+	width: 300px;
+}
+.upload-preview img {
+	margin: 10px 0;
+}
+.use_tabs #g7-options {
+	margin-top: 20px;
+}
+#g7-options .postbox {
+	width: 400px;
+	margin-bottom: 10px;
+}
+#g7-options .metabox-holder {
+	padding-top: 0;
+}
+.g7-item {
+	margin-bottom: 5px;
+}
+.g7-item-add,
+.g7-item-delete {
+	font-size: 11px;
+}
+.g7-item-delete img {
+	vertical-align: text-top;
+}
+
+.color-presets {
+	float: left;
+}
+.color-presets > div {
+	float: left;
+	height: 25px;
+	width: 25px;
+	border: 3px solid rgba(0, 0, 0, 0.1);
+	margin: 0 10px 10px 0;
+	cursor: pointer;
+}
+.color-presets > div:hover {
+	border-color: rgba(0, 0, 0, 0.4);
+}
+.colorpicker {
+	position: relative;
+}
+.picker {
+	position: absolute;
+	display: none;
+}
+a.nav-tab {
+	outline: none;
+}
+a#notabs {
+	float: right;
+	color: #ccc;
+	font-size: 11px;
+	text-decoration: none;
+	margin-right: 20px;
+}
+a#notabs:hover {
+	text-decoration: underline;
+}

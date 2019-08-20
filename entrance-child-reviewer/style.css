@@ -1,0 +1,251 @@
+/*
+Theme Name: PLOS Reviewers Site
+Theme URI: http://gawibowo.com/themes/entrance
+Description: Child theme for the Reviewers Site
+Version: 1.0
+Author: Trevor Polischuk
+Author URI: http://www.plos.org
+Template: entrance
+*/
+
+@import url("../entrance/style.css");
+
+body {
+	font-size:16px;
+}
+
+h1 {
+	font-size:2.827em;
+	line-height: 1.45;
+	font-weight: 400;
+}
+
+h2 {
+	font-size:1.99em;
+	line-height: 1.45;
+	font-weight:400;
+}
+
+h3 {
+	font-size:1.414em;
+	line-height:1.45;
+	font-weight:600;
+}
+
+#mainmenu > li > a {
+	font-size: 1em;
+	font-weight: 600;
+}
+
+.widget ul > li {
+	padding:0;
+}
+
+h2.widgettitle {
+	margin-bottom: 8px;
+}
+
+#sidebar h2.widgettitle {
+	font-size:1.414em;
+	line-height:1.45;
+}
+
+.g7-btn {
+	text-transform: uppercase;
+	font-size: 1em;
+}
+
+blockquote cite {
+	font-size:1.414em;
+}
+
+
+/* Custom Header */
+
+#top {
+	margin:10px 0;
+}
+
+#logo {
+	disply:inline-block;
+	float:left;
+}
+
+#mainnav {
+	text-align:right;
+	margin-bottom:50px;
+}
+
+#mainnav li {
+	margin-bottom:0;
+}
+
+#mainnav li:last-child {
+	margin-right:0;
+}
+
+#mainmenu {
+	position:relative;
+	top:10px;
+}
+
+header span.entry-category {
+	display:block;
+}
+
+/* Enlarged Featured Image text */
+
+.featured h2 {
+	font-size:17px;
+	display:inline-block;
+	float:left;
+}
+
+/* Reducing padding between widgets */
+
+.widgettitle {
+	margin-bottom: 20px;
+}
+
+.widget {
+	margin-bottom: 40px;
+}
+
+/* Custom PLOS Footer */
+
+#footer-widget ul {
+	list-style:none;
+	padding-left:0;
+}
+
+#footer-widget ul li a, #footer-widget p {
+	color:white;
+}
+
+#footer-widget h5 {
+	color:white;
+	font-weight:bold;
+	font-size:17px;
+}
+
+#footer-widget {
+	background:#333;
+}
+
+#footer-links li {
+	margin-bottom:10px;
+}
+
+#plos-footer-logo {
+	margin-bottom:20px;
+}
+
+/* RSS Icon */
+.block-more > a {
+	color:#bbb;
+}
+
+#exact-target-signup {
+  background:#747F85;
+  padding:20px;
+}
+
+#exact-target-signup input,
+#exact-target-signup h4 {
+  margin-bottom:15px;
+  border:none;
+}
+
+#exact-target-signup input {
+	width:100%;
+}
+
+#exact-target-signup h4 {
+  color:white;
+}
+
+#exact-target-signup #exact-target-submit {
+  margin-bottom:0;
+  background: #42b2a9;
+  font-weight:bold;
+  transition: background-color 0.5s ease;
+  -webkit-appearance: none;
+}
+
+#exact-target-signup #exact-target-submit:hover {
+  background-color:#1D877F;
+  transition: background-color 0.5s ease;
+}
+
+#exact-target-success-message {
+  display:none;
+}
+
+#exact-target-success-message p {
+  font-size: 13px;
+  margin-bottom:10px;
+  color:#d6df24;
+}
+
+#exact-target-success-message h4 {
+  font-weight:bold;
+	margin: 0;
+}
+
+#exact-target-names {
+  display:none;
+}
+
+#exact-target-signup .widget-wrap p {
+	color:white;
+	font-size:12px;
+}
+
+#gdpr-consent-wrapper {
+    color:white;
+    margin-top:5px;
+    margin-bottom:15px;
+}
+
+#gdpr-consent-wrapper p {
+    font-size: 14px;
+}
+
+ #gdpr-consent-wrapper a {
+     font-size:14px;
+     color:white;
+     text-decoration:underline;
+ }
+
+#gdpr-consent-wrapper input {
+    display: inline;
+    float: left;
+    width: inherit;
+    margin:0 5px 0 0;
+	position: relative;
+	top: 4px;
+}
+
+/* Media Queries */
+@media only screen and (min-width : 320px) {
+	#logo img {
+		margin-bottom: 30px;
+	}
+	/*div#wrapper { background: red; }*/
+}
+
+/*@media only screen and (min-width : 480px) {
+	div#wrapper { background: blue; }
+}
+
+@media only screen and (min-width : 768px) {
+	div#wrapper { background: orange; }
+}
+
+@media only screen and (min-width : 992px) {
+	div#wrapper { background: purple; }
+}
+
+@media only screen and (min-width : 1200px) {
+	div#wrapper {	background: green; }
+}*/

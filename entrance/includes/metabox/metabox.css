@@ -1,0 +1,124 @@
+.g7mb-field {
+	margin: 10px 0;
+}
+.g7mb-label,
+.g7mb-input {
+	display: inline-block;
+	vertical-align: top;
+}
+.g7mb-label {
+	width: 24%;
+}
+/* 75% if field has label, 100% if no label */
+.g7mb-input {
+	width: 100%;
+}
+.g7mb-label ~ .g7mb-input {
+	width: 75%;
+}
+#wpcontent .g7mb-input option {
+	padding: 2px 4px;
+}
+.g7-slider {
+	/* width: 200px; */
+}
+.g7-rating {
+	width: 100%;
+}
+.g7-rating th {
+	text-align: left;
+}
+.g7-rating td {
+	padding: 5px 0;
+}
+.g7-rating-add {
+	margin: 10px 0 20px;
+}
+.g7-rating tfoot {
+	font-weight: bold;
+}
+
+.g7-content-builder {
+	margin-left: 15px;
+	margin-top: 15px;
+	width: 400px;
+	float: left;
+}
+
+#pagebuilder_metabox .description {
+	font-style: normal;
+	float: left;
+	margin-left: 15px;
+	width: 300px;
+}
+.g7-dragdrop {
+	width: 380px;
+}
+.g7-add-item {
+	margin: 0 0 15px;
+}
+.g7-dragdrop .widget-placeholder {
+	width: 100%;
+}
+.g7-dragdrop .widget,
+.g7-dragdrop .widget-placeholder {
+	margin-bottom: 15px;
+}
+.g7-dragdrop-item {
+	display: none;
+}
+.g7-category-dropdown,
+.g7-input,
+.g7-select {
+	width: 100%;
+}
+#pagebuilder_metabox {
+	background: #fcfcfc;
+}
+.g7-dragdrop a.widget-control-remove {
+	color: #ff0000;
+	border-bottom: 1px solid #ff0000;
+	padding: 1px 2px;
+	text-decoration: none;
+}
+.g7-dragdrop a.widget-control-remove:hover {
+	color: #ffffff;
+	background: #ff0000;
+	text-decoration: none;
+}
+.g7-dragdrop .wp-picker-container {
+	vertical-align: -10px;
+}
+
+.widget-title > h4 span {
+	font-weight: normal;
+	color: #999;
+	margin-left: 5px;
+}
+
+.g7-imageselect {
+	display: block;
+}
+.g7-imageselect img {
+	cursor: pointer;
+	border: 2px solid #ddd;
+	margin: 3px 5px 3px 0;
+}
+.g7-imageselect img.selected {
+	border: 2px solid #278ab7;
+}
+.g7-title {
+	margin: 10px 0 6px;
+	font-weight: bold;
+}
+
+#review_metabox .g7mb-label,
+#review_metabox .g7mb-input {
+	width: 100%;
+}
+
+.g7-dragdrop .widget-inside {
+	border-top: 0 none;
+	padding: 1px 15px 15px;
+	padding: 12px 12px 10px;
+}
